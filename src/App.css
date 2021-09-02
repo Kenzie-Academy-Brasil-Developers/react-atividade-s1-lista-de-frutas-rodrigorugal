@@ -7,6 +7,43 @@
   pointer-events: none;
 }
 
+.lista {
+  height: 150px;
+  width: 80%;
+  max-width: 350px;
+  color: #282c34;
+  background-color: #61dafb;
+  box-sizing: border-box;
+  padding: 30px;
+  border-radius: 20px;
+}
+.lista li {
+  list-style-type: circle;
+}
+
+.bntTroca {
+  font-size: 20px;
+  padding: 15px;
+  border-radius: 20px 100px;
+  border: #61dafb 2px solid;
+  background-color: #282c34;
+  color: #61dafb;
+}
+.bntTroca:hover {
+  border: #000000 2px solid;
+  color: #000000;
+  background-color: #82def8;
+}
+.bntTroca:active {
+  background-color: #467b8a;
+}
+
+.titulo {
+  background-color: #1d3f83;
+  border: 2px solid #000000;
+  border-radius: 100px 10px 20px 100px;
+  padding: 0 20px;
+}
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
